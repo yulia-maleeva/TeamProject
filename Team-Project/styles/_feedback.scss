@@ -1,0 +1,149 @@
+// feedback block
+.feedback {
+    background-color: #0a2640;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .feedback-wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  
+    .feedback__title {
+      margin-top: 96px;
+      margin-bottom: 72px;
+      width: 100%;
+      max-width: 716px;
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 72px;
+      color: #ffffff;
+    }
+  
+    // styles for comments container
+    .feedback__comments-wrapper {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 100px;
+      gap: 20px;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      position: relative;
+    }
+  
+    // styles for comment
+    .feedback__comment {
+      box-sizing: border-box;
+      padding: 40px;
+      background-color: white;
+      color: black;
+      width: 350px;
+      border-radius: 10px;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 36px;
+      color: #000000;
+  
+      .feedback__comment-text {
+        margin-bottom: 40px;
+      }
+  
+      .feedback__author-wrapper {
+        display: flex;
+  
+        .feedback__author-info {
+          margin-left: 16px;
+  
+          .feedback__author-name {
+            font-family: "Open Sans";
+            // font-style: normal;
+            margin: 0px;
+            font-weight: 900;
+            font-size: 16px;
+            line-height: 32px;
+            color: #0a2640;
+          }
+  
+          .feedback__author-position {
+            font-family: "Open Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 32px;
+            color: #0a2640;
+            margin: 0px;
+          }
+        }
+      }
+    }
+  }
+  
+  // arrows block
+  .feedback__arrows {
+    display: inline-flex;
+    gap: 28px;
+    position: absolute;
+    top: -120px;
+    right: -60px;
+  
+    .feedback__left-arrow {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 0px;
+  
+      &:hover {
+        background-color: #438cd0;
+        // stroke: white;
+      }
+  
+      &:hover svg path {
+        background-color: #0a2640;
+        stroke: white;
+      }
+    }
+  
+    .feedback__right-arrow {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 0px;
+      
+      &:hover {
+        background-color: #438cd0;
+      }
+  
+      &:hover svg path {
+        background-color: #0a2640;
+        stroke: white;
+      }
+    } 
+  }
+  
+  @media screen and (max-width:1220px) {
+    .feedback__title {
+      margin-left: 20px; 
+    }
+    
+    .feedback__arrows {
+      right: 20px;
+    } 
+  }
+  
+  

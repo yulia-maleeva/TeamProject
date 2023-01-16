@@ -1,0 +1,303 @@
+.our-services {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0px 156px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+
+  &__title {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    text-align: center;
+
+    h2 {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 32px;
+      color: #777777;
+      text-shadow: 0px 4px 3px #c6c2c2;
+    }
+
+    p {
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 72px;
+      color: #000000;
+      width: 100%;
+      max-width: 840px;
+      text-shadow: 0px 4px 4px #767474;
+      margin: 0px;
+    }
+  }
+}
+
+.our-services__items-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 180px;
+}
+
+.our-services__item {
+  // width: 33.3%;
+  max-width: 300px;
+}
+
+.our-services__item-title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.our-services__item-description {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+}
+
+.our-services__item-link-wrapper {
+  border-bottom: #000000 solid 1px;
+  display: inline-block;
+}
+.our-services__item-link {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  text-decoration: none;
+  position: relative;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #0a2640;
+  gap: 10px;
+
+  &:hover {
+    background-color: rgb(173, 213, 30);
+    border-radius: 5px;
+  }
+}
+
+//  block with a man
+.our-services__block2-wrapper {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 140px;
+}
+
+@media screen and (max-width: 1200px) {
+  .our-services__block2-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.image {
+  width: 496px;
+  height: 506px;
+}
+
+// diagram
+.image-diagram-wrapper {
+  position: absolute;
+  bottom: -90px;
+  right: 60px;
+  box-sizing: border-box;
+  padding: 40px 40px 30px 40px;
+  box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+
+  .diagram-percents {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #0a2640;
+    margin-top: 10px;
+  }
+
+  .diagram-comments {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #0a2640;
+  }
+}
+
+.our-services__block2.image-diagram {
+  width: 171px;
+  height: 227px;
+}
+.our-services__block2.image {
+  position: relative;
+}
+
+// pie diagram
+.our-services__block2.image-diagram2 {
+  width: 227px;
+  height: 340px;
+}
+
+// text block
+.our-services__block2.text-block {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.text-block__title {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.text-block__title2 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.text-block__items-wrapper {
+  list-style-type: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+  padding: 0px;
+
+  .text-block__item {
+    position: relative;
+    margin-bottom: 46px;
+    padding-left: 20px;
+    margin-left: 40px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0px;
+      left: -40px;
+      width: 36px;
+      height: 36px;
+      background-image: url(../assets/icons/check-icon.svg);
+    }
+  }
+
+  .text-block__item-icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 46px;
+    padding: 0px;
+    width: 500px;
+    height: 68px;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    padding: 20px;
+
+    svg {
+      margin-right: 12px;
+    }
+
+    &:hover {
+      background-color: #0a2640;
+      color: white;
+    }
+
+    &:hover svg path {
+      stroke: white;
+    }
+  }
+}
+
+.text-block__item-icon svg path:hover {
+  stroke: greenyellow;
+}
+
+// button "Start now"
+.text-block__button {
+  display: inline-block;
+  width: 210px;
+  height: 60px;
+  background-color: rgba(10, 38, 64, 1);
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  border: 2px solid #0a2640;
+  border-radius: 56px;
+
+  &:hover {
+    background-color: #4652be;
+  }
+}
+
+// block with a woman
+.our-services__block3 {
+  display: flex;
+  margin-bottom: 120px;
+}
+// icons 'svg' in the items list
+.svg {
+  width: 50px;
+  height: 50px;
+
+  &:hover {
+    background-color: yellow;
+  }
+}
+
+// pie diagram
+.image-diagram-wrapper2 {
+  position: absolute;
+  bottom: -210px;
+  left: 50px;
+  box-sizing: border-box;
+  padding: 20px 30px 20px 30px;
+  box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
