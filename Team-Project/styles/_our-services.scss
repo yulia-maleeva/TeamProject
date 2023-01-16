@@ -22,10 +22,11 @@
       line-height: 32px;
       color: #777777;
       text-shadow: 0px 4px 3px #c6c2c2;
+      margin-bottom: 20px;
     }
 
     p {
-      font-family: "Manrope";
+      font-family: $manrope;
       font-style: normal;
       font-weight: 400;
       font-size: 48px;
@@ -131,7 +132,7 @@
   flex-direction: column;
 
   .diagram-percents {
-    font-family: "Manrope";
+    font-family: $manrope;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -143,7 +144,7 @@
   }
 
   .diagram-comments {
-    font-family: "Manrope";
+    font-family: $manrope;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -176,7 +177,7 @@
 }
 
 .text-block__title {
-  font-family: "Manrope";
+  font-family: $manrope;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -187,7 +188,7 @@
 }
 
 .text-block__title2 {
-  font-family: "Manrope";
+  font-family: $manrope;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;

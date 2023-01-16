@@ -636,9 +636,10 @@ nav button {
   line-height: 32px;
   color: #777777;
   text-shadow: 0px 4px 3px #c6c2c2;
+  margin-bottom: 20px;
 }
 .our-services__title p {
-  font-family: "Manrope";
+  font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
@@ -738,7 +739,7 @@ nav button {
   flex-direction: column;
 }
 .image-diagram-wrapper .diagram-percents {
-  font-family: "Manrope";
+  font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -749,7 +750,7 @@ nav button {
   margin-top: 10px;
 }
 .image-diagram-wrapper .diagram-comments {
-  font-family: "Manrope";
+  font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -780,7 +781,7 @@ nav button {
 }
 
 .text-block__title {
-  font-family: "Manrope";
+  font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -791,7 +792,7 @@ nav button {
 }
 
 .text-block__title2 {
-  font-family: "Manrope";
+  font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -915,7 +916,7 @@ nav button {
   margin-bottom: 72px;
   width: 100%;
   max-width: 716px;
-  font-family: "Manrope";
+  font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
@@ -1044,7 +1045,7 @@ nav button {
   gap: 20px;
 }
 .our-advantages__text-block .text-block__description {
-  font-family: "Manrope";
+  font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -1140,7 +1141,7 @@ nav button {
   color: #777777;
 }
 .our-blog__title p {
-  font-family: "Manrope";
+  font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
@@ -1272,6 +1273,7 @@ nav button {
 .submit-form .buttons .email-input {
   margin: 0 10px;
   width: 60%;
+  max-width: 370px;
   height: 60px;
   border: none;
   border-radius: 20px;
